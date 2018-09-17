@@ -237,4 +237,4 @@ sudo: effective uid is not 0, is /usr/bin/sudo on a file system with the 'nosuid
 
 This is the error reported when run `sudo` in the container. Follow the instruction above, I remounted the external hard drive without `nosuid` option.  Return to the previous question, so it should not be a problem related to hard drive space.
 
-Perhaps, the next step I should create a full image with `-g minilayout` in the step of `repo init`(`Dockerfile file`).
+~~Perhaps, the next step I should create a full image with `-g minilayout` in the step of `repo init`(`Dockerfile file`).~~ No, I got only a huge docker image which has the same issue.
